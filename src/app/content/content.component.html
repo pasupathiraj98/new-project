@@ -1,0 +1,13 @@
+<app-dashboard></app-dashboard>
+<div class="row">
+	<div class="col-xl-3 col-sm-6 mb-3" *ngFor="let item of items">
+
+	<app-newmessage [color]="item.background" [message]="item.message" ></app-newmessage>
+
+</div>
+
+
+
+
+</div>
+<button (click)="addingobject()">To Create New Card</button><br>
